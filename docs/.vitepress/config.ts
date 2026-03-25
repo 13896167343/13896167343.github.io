@@ -1,31 +1,27 @@
 import { defineConfig } from 'vitepress'
-import Theme from 'vitepress-theme-teek/es/index.mjs'
-import './index.css'
+import { defineTeekConfig } from 'vitepress-theme-teek/es/config/index.mjs'
 
-export default {
-  ...Theme,
-  ...defineConfig({
-    title: "瑶的技术博客",
-    description: "分享技术，记录成长",
-    base: '/',
+export default defineTeekConfig(defineConfig({
+  title: "瑶的技术博客",
+  description: "分享技术，记录成长",
+  base: '/',
+  
+  themeConfig: {
+    siteTitle: '瑶的技术博客',
     
-    themeConfig: {
-      siteTitle: '瑶的技术博客',
-      
-      nav: [
-        { text: '首页', link: '/' },
-        { text: '技术文章', link: '/articles/' },
-        { text: '关于', link: '/about' }
-      ],
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '技术文章', link: '/articles/' },
+      { text: '关于', link: '/about' }
+    ],
 
-      socialLinks: [
-        { icon: 'github', link: 'https://github.com/498330580' }
-      ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/498330580' }
+    ],
 
-      footer: {
-        message: 'Released under the MIT License.',
-        copyright: 'Copyright © 2024-present'
-      }
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2024-present'
     }
-  })
-}
+  }
+}))
