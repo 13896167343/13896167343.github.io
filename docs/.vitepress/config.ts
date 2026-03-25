@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { defineTeekConfig } from 'vitepress-theme-teek/lib/config/index.js'
+import { defineTeekConfig } from 'vitepress-theme-teek/es/config/index.mjs'
 
 export default defineTeekConfig(defineConfig({
   title: "瑶的技术博客",
