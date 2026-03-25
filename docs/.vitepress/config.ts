@@ -7,6 +7,8 @@ export default defineTeekConfig(defineConfig({
   base: '/',
   
   themeConfig: {
+    siteTitle: '瑶的技术博客',
+    
     nav: [
       { text: '首页', link: '/' },
       { text: '技术文章', link: '/articles/' },
