@@ -1,7 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { defineTeekConfig } from 'vitepress-theme-teek/es/config/index.mjs'
 
-export default defineTeekConfig(defineConfig({
+export default defineConfig({
   title: "瑶的技术博客",
   description: "分享技术，记录成长",
   base: '/',
@@ -24,4 +23,4 @@ export default defineTeekConfig(defineConfig({
       copyright: 'Copyright © 2024-present'
     }
   }
-}))
+})

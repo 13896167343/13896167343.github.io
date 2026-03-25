@@ -10,7 +10,6 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.4",
-    "vitepress-theme-teek": "^1.5.5",
     "vue": "^3.5.31"
   }
 }
