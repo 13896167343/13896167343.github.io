@@ -5,6 +5,11 @@ export default defineConfig({
   description: "分享技术，记录成长",
   base: '/',
   
+  sitemap: {
+    hostname: 'https://blog.yaoling.cc',
+    lastmod: 'date'
+  },
+  
   themeConfig: {
     siteTitle: '瑶的技术博客',
     
