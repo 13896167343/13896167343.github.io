@@ -4,8 +4,9 @@
 
 ## 近期文章
 
-- [Vue3 入门指南](/articles/vue3-start)
-- [Vite 进阶使用](/articles/vite-advanced)
+- [FlareSolverr 部署教程](/articles/flaresolverr-deploy) - 绕过 Cloudflare 的反爬虫保护
+- [Vue3 入门指南](/articles/vue3-start) - Vue3 组合式 API 入门
+- [Vite 进阶使用](/articles/vite-advanced) - Vite 进阶技巧
 
 ## 关于我
 
