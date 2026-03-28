@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   
   sitemap: {
-    hostname: 'https://blog.yaoling.cc',
+    hostname: 'https://andy.yaoling.cc',
     lastmod: 'date'
   },
   
